@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nects - ToDo App</title>
+    <link rel='stylesheet' href="style.css">
+  </head>
+  <body>
+    <header>
+      <div id="header-title">
+        <img id="logo" src="assets/Nects.png">
+        <div>
+          <h1>Nects</h1>
+          <p>Minimalist ToDo List App</p>
+        </div>
+      </div>
+      <div id="header-buttons">
+        <a href="/">Github</a>
+      </div>
+    </header>
+    
+    <main id="main">
+      <section id="search-container">
+        <div id="search-control">
+          <h1>Search</h1>
+          <div class="control-buttons">
+             
+          </div>
+        </div>
+        <div id="search-input-container">
+          <input id="search" type="text" placeholder="Search...">
+        </div>
+      </section>
+      
+      <section id='main-container'>
+        <div id="main-control">
+          <h1>Active Tasks</h1>
+          <div id="create-task">
+            <form id="task-form">
+              <label for="form-taskName">Task Name:</label>
+              <input id="form-taskName" type="text" placeholder="Task Name..." required>
+              <label for="form-taskDescription">Description:</label>
+              <textarea id="form-taskDescription" maxlength="60" rows="4" placeholder="Task Description..." required></textarea>
+            </form>
+          </div>
+          <div class="control-buttons">
+            <button type="submit" form="task-form">Create</button>
+          </div>
+        </div>
+        <div id="active-tasks">
+          <div class="task">
+            <h2>My Task</h2>
+            <p>this is description bla bla</p>
+            <p>1010928229</p>
+            <div class="task-buttons">
+              <button class="complete-task">Complete</button>
+              <button class="remove-task">Remove</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="aside-container">
+        <div id="aside-control">
+          <h1>Completed Tasks</h1>
+          <div class="control-buttons">
+            <button id="reset-task">Remove All</button>
+          </div>
+        </div>
+        <div id="completed-tasks">
+          
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Made by Alaric Abyasa &copy; 2025 Nects. All rights reserved.</p>
+    </footer>
+    
+    <script src='main.js'></script>
+  </body>
+</html> 
