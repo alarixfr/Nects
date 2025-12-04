@@ -1,5 +1,9 @@
 # Nects
+<img src="assets/Nects.png" alt="Nects logo" width="150"/>
+
 A minimalist todo list app with local storage feature
+
+responsive and easy to use ✅
 
 ## DONATE
 BTC:
