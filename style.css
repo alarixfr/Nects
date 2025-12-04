@@ -88,13 +88,13 @@ section {
 }
 
 section h1 {
-  color: #F25912;
+  color: black;
   font-size: 1.6rem;
   margin-bottom: 0.6rem;
 }
 
 label {
-  color: #F25912;
+  color: black;
   font-size: 1rem;
 }
 
@@ -108,8 +108,9 @@ button {
   font-size: 1.3rem;
   border: none;
   padding: 0.2rem 0.6rem;
-  background: #F25912;
+  background: #069b06;
   border-radius: 4px;
+  flex-grow: 1;
 }
 
 #active-tasks, #completed-tasks {
@@ -149,8 +150,12 @@ footer {
 }
 
 .task {
-  background: #5C3E94;
   padding: 1rem;
+  border-bottom: 4px solid #5C3E94;
+}
+
+.task h2, .task p {
+  color: black;
 }
 
 .task-buttons {
@@ -167,4 +172,13 @@ footer {
 
 .remove-task {
   flex-grow: 1;
+  background: #ff3b3b;
+}
+
+#reset-task {
+  background: #ff3b3b;
+}
+
+input, textarea {
+  border-radius: 4px;
 }
